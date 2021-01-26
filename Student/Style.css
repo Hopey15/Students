@@ -1,0 +1,86 @@
+/* Style the label to display above the inputs */
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Style the heading */
+
+.heading {
+    border-radius: 3px;
+    background-color: #e3e700;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+
+/* Style the container */
+
+.container {
+    border-radius: 5px;
+    background-color: #f1f1fd;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
+/*dashboard table styling*/
+
+#dashboard {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+#dashboard tr:nth-child(even) {
+    background-color: #cce6ff;
+    padding: 8px;
+}
+
+#dashboard tr:hover {
+    background-color: #b3d9ff;
+}
+
+#dashboard th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffffff;
+    color: black;
+}
+
+.formtable {
+    border: 1px solid #000000;
+    padding: 8px;
+}
